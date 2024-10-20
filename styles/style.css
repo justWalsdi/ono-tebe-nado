@@ -261,12 +261,13 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
+  padding: 0 50px;
+  margin-bottom: 88px;
 }
 
 .footer__address {
   justify-self: baseline;
-  padding-left: 50px;
-  padding-right: 150px;
+  padding-right: 160px;
 }
 
 .footer__menu-list {
@@ -290,7 +291,6 @@ body {
   display: flex;
   justify-content: end;
   gap: 48px;
-  margin-right: 50px;
 }
 
 .footer__social-icon {
